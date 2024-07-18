@@ -38,6 +38,10 @@
         </p>
     </div>
 
+    <div class="uk-container">
+        @yield('content')
+    </div>
+
     @stack('scripts')
 </body>
 
